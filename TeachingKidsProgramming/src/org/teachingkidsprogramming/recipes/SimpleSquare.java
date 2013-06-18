@@ -16,7 +16,7 @@ public class SimpleSquare
       Tortoise.setPenColor(Colors.getRandomColor());
       Tortoise.setPenWidth(i * 3.5);
       Tortoise.move(i * 5);
-      Tortoise.turn(360.0 * 3 / side);
+      Tortoise.turn(360.0 * -3 / side);
     }
   }
 }
