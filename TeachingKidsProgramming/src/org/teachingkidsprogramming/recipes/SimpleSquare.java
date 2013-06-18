@@ -2,6 +2,7 @@ package org.teachingkidsprogramming.recipes;
 
 import org.teachingextensions.logo.Colors;
 import org.teachingextensions.logo.Tortoise;
+import org.teachingextensions.windows.MessageBox;
 
 public class SimpleSquare
 {
@@ -9,13 +10,13 @@ public class SimpleSquare
   {
     Tortoise.show();
     Tortoise.setSpeed(10);
-    int side = 17;
+    int side = MessageBox.askForNumericalInput("how many sides would you like?");
     for (int i = 1; i <= side; i++)
     {
       Tortoise.setPenColor(Colors.getRandomColor());
-      Tortoise.setPenWidth(7);
-      Tortoise.move(25);
-      Tortoise.turn(360.0 / side);
+      Tortoise.setPenWidth(i * 3.5);
+      Tortoise.move(i * 5);
+      Tortoise.turn(360.0 * 3 / side);
     }
   }
 }
