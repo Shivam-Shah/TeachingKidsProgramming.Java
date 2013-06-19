@@ -10,12 +10,11 @@ public class SimpleSquare
   {
     Tortoise.show();
     Tortoise.setSpeed(10);
-    int side = 4;
-    for (int i = 1; i <= side; i++)
+    for (int i = 1; i <= 4; i++)
     {
       Tortoise.setPenColor(Color.blue);
       Tortoise.move(50);
-      Tortoise.turn(360.0 / side);
+      Tortoise.turn(360.0 / 4);
     }
   }
 }
