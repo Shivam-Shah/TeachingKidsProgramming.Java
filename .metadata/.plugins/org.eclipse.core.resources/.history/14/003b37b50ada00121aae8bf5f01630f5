@@ -7,7 +7,6 @@ import org.teachingextensions.windows.MessageBox;
 
 public class PentagonCrazy
 {
-  static int side = MessageBox.askForNumericalInput("How long do you want the side?");
   public static void main(String[] args)
   {
     Tortoise.setSpeed(10);
@@ -19,6 +18,7 @@ public class PentagonCrazy
     for (int i = 1; i <= 200; i++)
     {
       adjustPen(i);
+      int side = MessageBox.askForNumericalInput("How long do you want the side?");
       Tortoise.move(side);
       Tortoise.turn(360 / 5);
       Tortoise.turn(1);

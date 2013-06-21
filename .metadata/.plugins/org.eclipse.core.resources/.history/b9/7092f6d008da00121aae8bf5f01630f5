@@ -1,5 +1,6 @@
 package org.teachingkidsprogramming.recipes;
 
+import org.teachingextensions.logo.Colors;
 import org.teachingextensions.logo.Tortoise;
 
 public class DigiFlower
