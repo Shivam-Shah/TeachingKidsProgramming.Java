@@ -13,7 +13,7 @@ public class DigiFlower
     Tortoise.getBackgroundWindow().setBackground(Colors.Grays.Silver);
     Tortoise.setPenWidth(3);
     createColorPalette();
-    for (int i = 1; i <= 15; i++)
+    for (int i = 1; i <= 30; i++)
     {
       drawOctagon();
       Tortoise.turn(360 / 15);

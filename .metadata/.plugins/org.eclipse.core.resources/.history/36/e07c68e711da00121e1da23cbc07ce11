@@ -1,5 +1,7 @@
 package org.teachingkidsprogramming.recipes;
 
+import java.awt.Color;
+
 import org.teachingextensions.logo.ColorWheel;
 import org.teachingextensions.logo.Colors;
 import org.teachingextensions.logo.Tortoise;
@@ -16,18 +18,20 @@ public class DigiFlower
     for (int i = 1; i <= 15; i++)
     {
       drawOctagon();
-      Tortoise.turn(360 / 15);
+      Tortoise.turn(360/15);
     }
   }
+
   public static void drawOctagon()
   {
     for (int i = 1; i <= 8; i++)
     {
-      Tortoise.setPenColor(ColorWheel.getNextColor());
-      Tortoise.move(50);
-      Tortoise.turn(360 / 8);
+    Tortoise.setPenColor(ColorWheel.getNextColor());
+    Tortoise.move(50);
+    Tortoise.turn(360/8);
     }
   }
+
   public static void createColorPalette()
   {
     ColorWheel.addColor(Colors.Reds.Red);

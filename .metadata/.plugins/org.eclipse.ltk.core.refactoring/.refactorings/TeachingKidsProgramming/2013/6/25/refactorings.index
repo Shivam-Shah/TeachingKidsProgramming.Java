@@ -2,3 +2,5 @@
 1371774465016	Extract method 'adjustPen'
 1371774551471	Extract method 'drawPentagon'
 1371774830689	Extract local variable 'side'
+1371777794515	Extract method 'createColorPalette'
+1371777895463	Extract method 'drawOctagon'
