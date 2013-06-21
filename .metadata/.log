@@ -16035,3 +16035,22 @@ java.lang.ClassNotFoundException: org.eclipse.e4.ui.workbench.renderers.swt.coco
 
 !ENTRY org.eclipse.ui 4 4 2013-06-20 16:59:53.402
 !MESSAGE Unable to find Action Set: com.mountainminds.eclemma.ui.CoverageActionSet
+
+!ENTRY org.eclipse.team.core 4 0 2013-06-20 16:59:56.194
+!MESSAGE Could not instantiate provider org.tigris.subversion.subclipse.core.svnnature for project TeachingKidsProgramming.
+!STACK 1
+org.eclipse.team.core.TeamException: Could not instantiate provider org.tigris.subversion.subclipse.core.svnnature for project TeachingKidsProgramming.
+	at org.eclipse.team.core.RepositoryProvider.mapNewProvider(RepositoryProvider.java:165)
+	at org.eclipse.team.core.RepositoryProvider.mapExistingProvider(RepositoryProvider.java:235)
+	at org.eclipse.team.core.RepositoryProvider.getProvider(RepositoryProvider.java:507)
+	at org.eclipse.team.internal.core.TeamHookDispatcher.getProvider(TeamHookDispatcher.java:97)
+	at org.eclipse.team.internal.core.TeamHookDispatcher.getRuleFactory(TeamHookDispatcher.java:105)
+	at org.eclipse.core.internal.resources.Rules.factoryFor(Rules.java:93)
+	at org.eclipse.core.internal.resources.Rules.refreshRule(Rules.java:166)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1689)
+	at org.eclipse.core.internal.resources.File.refreshLocal(File.java:333)
+	at org.eclipse.core.internal.refresh.RefreshJob.runInWorkspace(RefreshJob.java:167)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.team.core 4 0 2013-06-20 16:59:56.194
+!MESSAGE Could not instantiate provider org.tigris.subversion.subclipse.core.svnnature for project TeachingKidsProgramming.
