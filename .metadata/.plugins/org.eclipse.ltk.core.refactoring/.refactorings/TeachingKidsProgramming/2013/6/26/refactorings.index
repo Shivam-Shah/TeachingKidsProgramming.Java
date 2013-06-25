@@ -3,3 +3,6 @@
 1372195607410	Extract method 'drawLowerBranches'
 1372195710091	Extract method 'drawShorterBranch'
 1372196260148	Extract method 'adjustColor'
+1372199552403	Extract local variable 'rightAngle'
+1372199572444	Extract local variable 'leftAngle'
+1372199620832	Extract local variable 'difference'

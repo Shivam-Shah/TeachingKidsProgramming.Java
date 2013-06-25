@@ -62,7 +62,7 @@ public class TurtleTree
   }
   private static void drawLowerBranches(Turtle turtle, int length)
   {
-    int rightAngle = NumberUtils.getRandomInt(10, 60);
+    int rightAngle = NumberUtils.getRandomInt(-10, -60);
     turtle.turn(rightAngle);
     drawShorterBranch(turtle, length);
     int leftAngle = NumberUtils.getRandomInt(10, 60);
