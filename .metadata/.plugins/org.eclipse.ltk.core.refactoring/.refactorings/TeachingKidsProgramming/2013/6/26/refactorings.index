@@ -6,3 +6,4 @@
 1372199552403	Extract local variable 'rightAngle'
 1372199572444	Extract local variable 'leftAngle'
 1372199620832	Extract local variable 'difference'
+1372200524117	Extract method 'quizStitchRepeat'

@@ -6,7 +6,7 @@ import org.teachingextensions.logo.Tortoise;
 import org.teachingkidsprogramming.recipes.quizzes.graders.PentagonCrazyQuizGrader;
 import org.teachingkidsprogramming.recipes.quizzes.graders.PentagonQuiz;
 
-public class PentagonCrazyQuiz extends PentagonQuiz
+public class PentagonCrazyQuiz extends PentagonCrazyQuizGrader
 {
   //      Question1
   //      Create a method called thread
@@ -19,6 +19,7 @@ public class PentagonCrazyQuiz extends PentagonQuiz
   {
     //        Do the following 76 times
     quizStitchRepeat();
+    quizStitchRepeat();
     //        Quiz.Stitch()
     //        Repeat
   }
@@ -26,7 +27,7 @@ public class PentagonCrazyQuiz extends PentagonQuiz
   {
     for (int i = 1; i <= 76; i++)
     {
-      stitch();
+      Quiz.Stitch();
     }
   }
   public void question3()
@@ -41,6 +42,6 @@ public class PentagonCrazyQuiz extends PentagonQuiz
   }
   public static void main(String[] args)
   {
-    new PentagonCrazyQuizGrader().grade(new PentagonCrazyQuiz());
+    new PentagonCrazyQuizGrader().grade(new PentagonQuiz());
   }
 }

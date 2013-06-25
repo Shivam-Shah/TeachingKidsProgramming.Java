@@ -19,6 +19,7 @@ public class PentagonCrazyQuiz extends PentagonQuiz
   {
     //        Do the following 76 times
     quizStitchRepeat();
+    quizStitchRepeat();
     //        Quiz.Stitch()
     //        Repeat
   }
