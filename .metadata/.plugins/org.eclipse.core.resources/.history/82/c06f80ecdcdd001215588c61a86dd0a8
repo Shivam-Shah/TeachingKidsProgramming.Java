@@ -1,0 +1,46 @@
+package org.teachingkidsprogramming.recipes;
+
+import org.teachingextensions.logo.Turtle;
+
+public class TurtleTree
+{
+  public static void main(String[] args)
+  {
+    Turtle turtle = new Turtle();
+    //    Make the tortoise go as fast as possible --#11
+    //    Turn the background black --#22
+    int branchLength = 60;
+    //    drawBranch(recipe below) --#2
+    //    ------------- Recipe for drawBranch --#2
+    drawBranch(turtle, branchLength);
+    //    ------------- End of drawBranch recipe --#2
+  }
+  private static void drawBranch(Turtle turtle, int branchLength)
+  {
+    //        If the current branch length is greater than zero, do the rest of this recipe --#6
+    //        adjustColor --#16
+    //        ------------- Recipe for adjustColor --#16
+    //            A 10 pixel long branch is lime --#21
+    //            A 20 pixel long branch is forest green --#20
+    //            A 30 pixel long branch is dark green --#19
+    //            A 40 pixel long branch is olive --#18
+    //            A 50 pixel long branch is sienna --#15
+    //            A 60 pixel long branch is saddle brown --#14
+    //        ------------- End of adjustColor --#16
+    turtle.move(branchLength);
+    //        drawLowerBranches (recipe below) --#7
+    //        ------------- Recipe for drawLowerBranches --#7
+    //            Turn the Tortoise 30 degrees to the right --#3
+    //            drawShorterBranch (recipe below) --#9
+    //            ------------- Recipe for drawShorterBranch --#9
+    //                drawBranch (10 pixels shorter) --#4
+    //            ------------- End of drawShorterBranch recipe --#9
+    //            Turn the Tortoise 60 degrees to the left --#8
+    //            drawShorterBranch --#10
+    //            Turn the Tortoise 30 degrees to the right --#13
+    //            adjustColor --#17
+    //change tortoise to turtle
+    //            Move the tortoise backward the length of the current branch --#12
+    //        ------------- End of drawLowerBranches recipe --#7
+  }
+}

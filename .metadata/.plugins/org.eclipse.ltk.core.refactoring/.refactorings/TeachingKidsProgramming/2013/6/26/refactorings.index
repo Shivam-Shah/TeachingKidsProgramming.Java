@@ -1,0 +1,5 @@
+1372194975390	Extract local variable 'branchLength'
+1372195111243	Extract method 'drawBranch'
+1372195607410	Extract method 'drawLowerBranches'
+1372195710091	Extract method 'drawShorterBranch'
+1372196260148	Extract method 'adjustColor'
