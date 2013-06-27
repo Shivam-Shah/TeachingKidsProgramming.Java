@@ -1,0 +1,11 @@
+package org.teachingkidsprogramming.recipes;
+
+public class FizzBuzz
+{
+  public static String convert(int i)
+  {
+    //convert the number into a string 
+    return "Henry The " + i;
+  }
+}
+

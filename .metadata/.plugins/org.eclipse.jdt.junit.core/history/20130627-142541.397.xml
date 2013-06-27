@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="FizzBuzzTest" project="TeachingKidsProgramming" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="org.teachingkidsprogramming.recipes.FizzBuzzTest" time="0.0">
+    <testcase name="testProduces1" classname="org.teachingkidsprogramming.recipes.FizzBuzzTest" time="0.0"/>
+    <testcase name="testProduces2" classname="org.teachingkidsprogramming.recipes.FizzBuzzTest" time="0.0"/>
+    <testcase name="test3Produces3" classname="org.teachingkidsprogramming.recipes.FizzBuzzTest" time="0.0"/>
+    <testcase name="test4Produces4" classname="org.teachingkidsprogramming.recipes.FizzBuzzTest" time="0.0"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,13 @@
+package org.teachingkidsprogramming.recipes;
+
+import org.junit.Test;
+
+public class FizzBuzzTest
+{
+  @Test
+  private void testProduces1()
+  {
+    //Confirm when we 
+    assertArrayEquals("1",FizzBuzz.convert(1));
+  }
+}

@@ -1,0 +1,18 @@
+package org.teachingkidsprogramming.recipes;
+
+public class FizzBuzz
+{
+  public static String convert(int i)
+  {
+    // if the number is  multiple 3 give fizz
+    if (3==i)
+    {
+      return "Fizz";
+    }
+    else {
+    //otherwise do the normal thing
+    return "" + i;}
+  }
+  }
+
+  

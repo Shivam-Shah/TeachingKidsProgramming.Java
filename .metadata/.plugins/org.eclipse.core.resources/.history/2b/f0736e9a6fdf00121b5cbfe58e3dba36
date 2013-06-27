@@ -1,0 +1,10 @@
+package org.teachingkidsprogramming.recipes;
+
+public class FizzBuzz
+{
+  public static String convert(int i)
+  {
+    //convert into string
+    return "" + i;
+  }
+}

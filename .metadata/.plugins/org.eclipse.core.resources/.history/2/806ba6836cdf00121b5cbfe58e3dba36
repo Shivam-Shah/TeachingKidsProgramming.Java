@@ -1,0 +1,19 @@
+package org.teachingkidsprogramming.recipes;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class FizzBuzzTest
+{
+  @Test
+  public void testProduces1()
+  {
+    assertEquals("1", FizzBuzz.convert(1));
+  }
+  @Test
+  public void testProduces2()
+  {
+    assertEquals("2", FizzBuzz.convert(2));
+  }
+}

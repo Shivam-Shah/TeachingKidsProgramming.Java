@@ -1,0 +1,11 @@
+package org.teachingkidsprogramming.recipes;
+
+public class FizzBuzz
+{
+
+  public static Object convert(int i)
+  {
+    // TODO Auto-generated method stub
+    return null;
+  }
+}
